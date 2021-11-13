@@ -1,5 +1,29 @@
-$main-color: #696969;
+$main-color: #ffffff;
+$first-color: #0497D8;
+$second-color: #FFDC14;
+$third-color: #5B2724;
+$fourth-color: #E6001C;
+$fifth-color: #029B3F;
+$sixth-color: #F28A00;
 
 body {
     background-color: $main-color;
+}
+
+#new-participant {
+    background: $first-color;
+    padding: 1em 2em;
+
+    .btn-circle {
+        width: 30px;
+        height: 30px;
+        padding: 6px 0px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    i.fa.fa-plus-circle {
+        color: $second-color;
+    }
 }
