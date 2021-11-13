@@ -8,22 +8,42 @@ $sixth-color: #F28A00;
 
 body {
     background-color: $main-color;
+    margin: 20px 0 0 0;
+    padding: 0;
 }
+
+header {
+    padding: 40px;
+    text-align: center;
+    img {
+        max-height: 32px;
+    }
+} 
 
 #new-participant {
     background: $first-color;
     padding: 1em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    .btn-circle {
-        width: 30px;
-        height: 30px;
-        padding: 6px 0px;
-        border-radius: 15px;
-        text-align: center;
-        font-size: 12px;
+    input {
+        border: none;
+        border-radius: 6px;
+        padding: 6px;
+        width: 75%;
     }
 
-    i.fa.fa-plus-circle {
-        color: $second-color;
+    button.btn-circle {
+        border: none;
+        border-radius: 20px;
+        padding: 6px 0px;
+        height: 30px;
+        width: 30px;
+        background: $second-color;
+    }
+
+    i.fa.fa-plus {
+        color: $third-color;
     }
 }
