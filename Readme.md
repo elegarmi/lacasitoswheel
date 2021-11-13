@@ -1,6 +1,6 @@
-# PR-Base-Wheel-Of
+# Lacasitos Wheel
 
-Repositorio base para los equipos que quieran utilizar parcel, sass y typescript en el proyecto
+Proyecto mobile-first para un sistema de selección de sacrificios de manera justa y aleatoria.
 
 ## Installation
 
@@ -20,4 +20,12 @@ or
 
 - Parcel
 - Sass
-- Typescript
+- Bootstrap
+- JavaScript
+
+### Lacasitos Coders
+
+- Elena Garzón Mieres
+- Daniel GD
+- Omar Hevia
+- Ana Robles
